@@ -11,6 +11,7 @@ Besides this,I met a another bug.The textview is OK but the imageview is not dis
 I found that,when I  set    viewHolder.imageView = ...
 
 I wrote  viewHolder.imageView = (ImageView) arg1.findViewById(R.id.iamge);
+
 the right is:  viewHolder.imageView = (ImageView) arg1.findViewById(R.id.imageview);
 So I must be more carefully in the future.
 
